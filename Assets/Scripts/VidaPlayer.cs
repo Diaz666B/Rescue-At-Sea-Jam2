@@ -24,7 +24,6 @@ public class VidaPlayer : MonoBehaviour
         if(vida == 0){
             Debug.Log("Game Over!");
             Destroy(player);
-            
         }
     }
 }
